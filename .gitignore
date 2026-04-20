@@ -1,0 +1,13 @@
+# Ignore raw data files
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/raw/*.gz
+
+# Ignore Python environment and logs
+venv/
+.env
+*.log
+
+# Ignore OS-specific files
+.DS_Store
