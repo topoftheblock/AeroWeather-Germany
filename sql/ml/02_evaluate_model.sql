@@ -1,0 +1,1 @@
+SELECT * FROM ML.EVALUATE(MODEL `your_project.aviation.delay_prediction_model`);

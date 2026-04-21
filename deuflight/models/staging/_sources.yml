@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: aviation_raw
+    database: your_project_id  # REPLACE with your GCP Project ID
+    schema: aviation           # REPLACE with your BigQuery Dataset
+    tables:
+      - name: flights_raw
+      - name: weather_raw
